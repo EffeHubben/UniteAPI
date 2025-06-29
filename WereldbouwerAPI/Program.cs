@@ -4,7 +4,7 @@ using WereldbouwerAPI;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//identity middleware = builder.Build();
+
 
 var sqlConnectionString = builder.Configuration["SqlConnectionString"];
 //var sqlConnectionString = builder.Configuration.GetValue<string>("SqlConnectionString");
