@@ -32,7 +32,7 @@ builder.Services.AddIdentityApiEndpoints<IdentityUser>(options =>
 {
     options.ConnectionString = sqlConnectionString;
 });
-
+//test
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddTransient<IAuthenticationService, AspNetIdentityAuthenticationService>();
