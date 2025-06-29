@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>af0547f5-a009-4971-8fe7-48da05150231</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avans.Identity.DapperOrm" Version="1.0.3" />
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Bcl.Cryptography" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.2" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="9.0.2" />
+  </ItemGroup>
+
+</Project>
